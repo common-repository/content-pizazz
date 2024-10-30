@@ -1,0 +1,403 @@
+/*  Short Codes
+ * -------------------------------------------------- */
+
+/* -------------- clear floats -------------------- */
+.cp_clear {clear: both;}
+
+/* ---------------columns --------------------------- */
+ 
+ .cp_one_fourth {
+ 	width: 22%;
+ 	margin: 1em 2% 0.5em 1%;
+ 	float: left;
+ }
+ 
+ .cp_one_third {
+ 	width: 30.33%;
+ 	margin: 1em 2% 0.5em 1%;
+ 	float: left;
+ }
+ 
+ .cp_two_third {
+ 	width: 63.66%;
+ 	margin: 1em 2% 0.5em 1%;
+ 	float: left;
+ }
+ 
+ .cp_one_half {
+ 	width: 47%;
+ 	margin: 1em 2% 0.5em 1%;
+ 	float: left;
+ }
+ 
+ .cp_three_fourth {
+ 	width: 72%;
+ 	margin: 1em 2% 0.5em 1%;
+ 	float: left;
+}
+
+/* --------------------quotes -------------------------- */
+ 
+ .cp_quote_left_dark,.cp_quote_left_light,.cp_quote_right_dark,.cp_quote_right_light,
+ .cp_quote_normal_dark,.cp_quote_normal_light {
+ 	margin: 10px;
+ 	padding: 10px 20px 0px 30px;
+ 	font-family: Georgia,"Times New Roman",Times,serif;
+ 	font-size: 16px;
+ 	line-height: 20px;
+ 	font-style: italic;
+ }
+ 
+ .cp_quote_left_dark{
+ 	clear: both;
+ 	width: 25%;
+ 	float: left;
+ 	background: url(images/quote-dark.png) no-repeat ;
+ }
+ 
+ .cp_quote_left_light{
+ 	clear: both;
+ 	width: 25%;
+  	float: left;
+ 	background: url(images/quote-light.png) no-repeat ;
+ }
+ 
+ .cp_quote_right_dark{
+ 	clear: both;
+ 	width: 25%;
+ 	float: right;
+ 	background: url(images/quote-dark.png) no-repeat ;
+ }
+ 
+ .cp_quote_right_light{
+ 	clear: both;
+ 	width: 25%;
+ 	float:right;
+ 	background: url(images/quote-light.png) no-repeat ; 	
+ }
+ 
+ .cp_quote_normal_dark {
+ 	background: url(images/quote-dark.png) no-repeat ;
+ }
+ 
+ .cp_quote_normal_light {
+ 	background: url(images/quote-light.png) no-repeat ;
+ }
+
+/* --------------------dropcaps ------------------- */
+ 
+ .cp_dropcaps {
+ 	display: block;
+    float: left;
+    font-size: 2.6em;
+    line-height: 1em;
+    margin: 0px 10px 0px 0px;
+ }
+
+/* -------------------------- lists --------------------------- */
+ 
+.cp_star,.cp_arrow_1,.cp_arrow_2,.cp_arrow_3,.cp_check_1,
+.cp_check_2,.cp_cog,.cp_dot,.cp_happy {
+	margin-left: 0px;
+	padding-left: 10px;
+}
+
+.cp_star ul,.cp_arrow_1 ul,.cp_arrow_2 ul,.cp_arrow_3 ul,.cp_check_1 ul,
+.cp_check_2 ul,.cp_cog ul,.cp_dot ul,.cp_happy ul {
+	padding:0; 
+	margin:0;
+}
+
+.cp_star ul ul,.cp_arrow_1 ul ul,.cp_arrow_2 ul ul,.cp_arrow_3 ul ul,
+.cp_check_1 ul ul,.cp_check_2 ul ul,.cp_cog ul ul,.cp_dot ul ul,.cp_happy ul ul {
+	padding:0; 
+	margin:0;
+}
+
+.cp_star ul ul ul,.cp_arrow_1 ul ul ul,.cp_arrow_2 ul ul ul,.cp_arrow_3 ul ul ul,
+.cp_check_1 ul ul ul,.cp_check_2 ul ul ul,.cp_cog ul ul ul,.cp_dot ul ul ul,.cp_happy ul ul ul {
+	padding:0; 
+	margin:0;
+}
+
+ul.cp_star li,ul.cp_arrow_1 li,ul.cp_arrow_2 li,ul.cp_arrow_3 li,ul.cp_check_1 li,
+ul.cp_check_2 li,ul.cp_cog li,ul.cp_dot li,ul.cp_happy li {
+	list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    line-height: 1.75em;
+    padding-left: 25px;
+    margin-left: 0;
+}
+
+.cp_star li,ul ul.cp_star li,ul ul ul.cp_star li,ul ul ul ul.cp_star li { background: url(images/li_star.png) 0px 5px no-repeat }
+
+.cp_arrow_1 li,ul ul.cp_arrow_1 li,ul ul ul.cp_arrow_1 li,ul ul ul ul.cp_arrow_1 li { background: url(images/li_arrow_1.png) 0px 5px no-repeat }
+
+.cp_arrow_2 li,ul ul.cp_arrow_2 li,ul ul ul.cp_arrow_2 li,ul ul ul ul.cp_arrow_2 li { background: url(images/li_arrow_2.png) 0px 5px no-repeat }
+
+.cp_arrow_3 li,ul ul.cp_arrow_3 li,ul ul ul.cp_arrow_3 li,ul ul ul ul.cp_arrow_3 li { background: url(images/li_arrow_3.png) 0px 5px no-repeat }
+
+.cp_check_1 li,ul ul.cp_check_1 li,ul ul ul.cp_check_1 li,ul ul ul ul.cp_check_1 li { background: url(images/li_check_1.png) 0px 5px no-repeat }
+
+.cp_check_2 li,ul ul.cp_check_2 li,ul ul ul.cp_check_2 li,ul ul ul ul.cp_check_2 li { background: url(images/li_check_2.png) 0px 5px no-repeat }
+
+.cp_cog li,ul ul.cp_cog li,ul ul ul.cp_cog li,ul ul ul ul.cp_cog li { background: url(images/li_cog.png) 0px 5px no-repeat }
+
+.cp_dot li,ul ul.cp_dot li,ul ul ul.cp_dot li,ul ul ul ul.cp_dot li { background: url(images/li_dot.png) 0px 5px no-repeat }
+
+.cp_happy li,ul ul.cp_happy li,ul ul ul.cp_happy li,ul ul ul ul.cp_happy li { background: url(images/li_happy.png) 0px 5px no-repeat }
+
+/* ---------------------messagebox ----------------------------- */
+
+.cp_messagebox_mbnoshade {}
+
+.cp_messagebox_mbdark {
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.4));
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.4));
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.4));
+	background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.4));
+}
+
+.cp_messagebox_mblight {
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.6), rgba(255,255,255,0));
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,0.6), rgba(255,255,255,0));
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,0.6), rgba(255,255,255,0));
+	background-image: linear-gradient(top, rgba(255,255,255,0.6), rgba(255,255,255,0));
+}
+
+.cp_messagebox {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	clear: both;
+	padding: 15px;
+}
+
+.cp_mb_left{float:left; margin-top: 1em; margin-bottom: 1em;}
+.cp_mb_right{float: right; margin-top: 1em; margin-bottom: 1em;}
+.cp_mb_center{float:left; width: 70%;margin: 1em auto 1em 10%;text-align: center;}
+
+/* ----------------- end messagebox --------------------- */
+
+/****** buttons - Sliding door/Sprite ******************/
+
+/* ----------- basic CSS ------------------- */
+
+a.cp_button span {
+	display: inline-block;
+	line-height: 41px;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+a.cp_button {
+	display: inline-block;
+	height: 41px;
+	padding-right: 9px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+/* ----- button alignment --------------- */
+.cp_button_left {text-align:left;clear:both;}
+.cp_button_right {text-align:right;clear:both;}
+.cp_button_center {text-align:center;clear:both;}
+.cp_button_left a,.cp_button_center a,.cp_button_right a {text-decoration:none!important;}
+
+/* ----------------------- gray ----------------------------------------------------- */
+a.cp_button_gray span {background: url('images/gray_l.png') no-repeat 0 0;}
+a.cp_button_gray {background: url('images/gray_r.png') no-repeat top right;}
+a.cp_button_gray:hover span {background-position: 0 -44px;font-weight:normal;}
+a.cp_button_gray:hover {background-position: right -44px;}
+
+/* ----------------------- red ----------------------------------------------------- */
+a.cp_button_red span {background: url('images/red_l.png') no-repeat 0 0;}
+a.cp_button_red {background: url('images/red_r.png') no-repeat top right;}
+a.cp_button_red:hover span {background-position: 0 -44px;font-weight:normal;}
+a.cp_button_red:hover {background-position: right -44px;}
+
+/* ----------------------- blue ----------------------------------------------------- */
+a.cp_button_blue span {background: url('images/blue_l.png') no-repeat 0 0;}
+a.cp_button_blue {background: url('images/blue_r.png') no-repeat top right;}
+a.cp_button_blue:hover span {background-position: 0 -44px;font-weight:normal;}
+a.cp_button_blue:hover {background-position: right -44px;}
+
+/* ----------------------- dark ----------------------------------------------------- */
+a.cp_button_dark span {background: url('images/dark_l.png') no-repeat 0 0;}
+a.cp_button_dark {background: url('images/dark_r.png') no-repeat top right;}
+a.cp_button_dark:hover span {background-position: 0 -44px;font-weight:normal;}
+a.cp_button_dark:hover {background-position: right -44px;}
+
+/* ----------------------- brown ----------------------------------------------------- */
+a.cp_button_brown span {background: url('images/brown_l.png') no-repeat 0 0;}
+a.cp_button_brown {background: url('images/brown_r.png') no-repeat top right;}
+a.cp_button_brown:hover span {background-position: 0 -44px;font-weight:normal;}
+a.cp_button_brown:hover {background-position: right -44px;}
+
+/* ----------------------- green ----------------------------------------------------- */
+a.cp_button_green span {background: url('images/green_l.png') no-repeat 0 0;}
+a.cp_button_green {background: url('images/green_r.png') no-repeat top right;}
+a.cp_button_green:hover span {background-position: 0 -44px;font-weight:normal;}
+a.cp_button_green:hover {background-position: right -44px;}
+
+/* ----------------------- yellow----------------------------------------------------- */
+a.cp_button_yellow span {background: url('images/yellow_l.png') no-repeat 0 0;}
+a.cp_button_yellow {background: url('images/yellow_r.png') no-repeat top right;}
+a.cp_button_yellow:hover span {background-position: 0 -44px;font-weight:normal;}
+a.cp_button_yellow:hover {background-position: right -44px;}
+
+/* ---------------------------- CSS3 Button ----------------------------------- */
+
+.cp_3d_button_left{float: left; clear: both; margin: 1em 0em 1em 0em;}
+
+.cp_3d_button_right{float: right; clear: both; margin: 1em 0em 1em 0em;}
+
+.cp_3d_button_center{float: left; width: 70%; text-align: center; clear: both; margin: 1em 0em 1em 10%;}
+
+.cp_3d_button {
+   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   /* CSS3 rounded corners */
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   	/* CSS3 shadow */
+	-webkit-box-shadow: 2px 5px 5px 0 rgba(72,72,72,0.8);
+	-moz-box-shadow: 2px 5px 5px 0 rgba(72,72,72,0.8);
+	box-shadow: 2px 5px 5px 0 rgba(72,72,72,0.8);
+}
+
+a.cp_3d_button {text-decoration:none!important;}
+
+.cp_css_button_small {
+	padding: 2px 5px 2px 5px;
+	font-size: 0.875em !important;
+}
+ 
+.cp_css_button_medium {
+	padding: 10px;
+	font-size: 1.5em !important;
+}
+
+.cp_css_button_large {
+	padding: 15px;
+	font-size: 2em !important;
+}
+   
+a.cp_3d_button:hover {
+	background-image: url(images/shade.png) !important;
+	font-weight:normal !important;
+	text-decoration: none;
+	/*lighten the shadow */
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+	-moz-box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+	box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+} 
+
+/* ------------------ Special Text Shortcode ----------------- */
+
+.cp_st_small {font-size: 0.75em;}
+
+.cp_st_normal {font-size: 1em;}
+
+.cp_st_medium {font-size: 1.5em;}
+
+.cp_st_large {font-size: 2em;}
+
+.cp_st_white {color: white;}
+
+.cp_st_black {color: black;}
+
+.cp_st_red {color: red;}
+
+.cp_st_yellow {color: yellow;}
+
+.cp_st_green {color: green;}
+
+.cp_st_blue {color: blue;}
+
+.cp_st_gray {color: gray;}
+
+/* ------------ end Special Text Styles -------------------- */
+
+/* ------------------------ divide shortcode--------------------------*/
+
+.cp_divide {
+	line-height: 0px;
+	margin: 1em auto 0.5em auto;
+}
+
+/* ------------------------ toggle shortcode--------------------------*/
+
+/*toggle*/
+h4.cp_trigger {
+	display:inline-block;
+	padding-left: 30px;
+	background-image: url('images/open_toggle.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+h4.cp_active{
+    background-image: url('images/close_toggle.png') !important;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.cp_toggle_container {
+	display: none;
+	overflow: hidden;
+    padding: 0px;
+}
+
+/* =========================================================================
+ * 	         Responsive Adjustments
+ * ========================================================================= */
+
+@media screen and (max-width: 900px) {
+	
+	.cp_one_fourth {
+ 		width: 47%;
+ 	}
+ 	
+ 	.cp_one_fourth:nth-child(3) {
+ 		clear:both;
+ 	}
+ 	
+ 	.cp_three_fourth {
+ 		width: 47%;
+	}
+	
+}
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+ .cp_one_third {
+ 	width: 47%;
+ }
+ 
+ .cp_two_third {
+ 	width: 47%;
+ }
+ 
+ .cp_quote_left_dark,.cp_quote_left_light,
+ .cp_quote_right_dark,.cp_quote_right_light
+ {
+ 	width: 80%;
+ }
+ 
+}
+
+@media screen and (max-width: 320px) {
+
+ .cp_one_fourth,.cp_one_third,.cp_one_half,.cp_two_third,.cp_three_fourth {
+ 	width: 90%;
+ 	margin: 1em 5% 0.5em 5%;
+ }
+ 
+}
